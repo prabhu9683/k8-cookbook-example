@@ -1,12 +1,12 @@
 apiVersion: v1
 kind: Pod
 metadata: 
-  name: my-first-pod
+  name: example
 spec:
   containers:
-  - name: my-nginx
+  - name: web
     image:  nginx
-  - name: my-centos
+  - name: centos
     image:  centos
     command: ["/bin/sh", "-c", "while : ;do curl
 http://localhost:80/; sleep 10; done"]
