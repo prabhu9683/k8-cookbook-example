@@ -8,5 +8,10 @@ spec:
     image:  nginx
   - name: centos
     image:  centos
+    resources:
+      limits:
+        memory: "200m"
+      requests:
+        memory: "100m"
     command: ["/bin/sh", "-c", "while : ;do curl
 http://localhost:80/; sleep 10; done"]
