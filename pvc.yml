@@ -1,13 +1,13 @@
 apiVersion: v1
 kind: PersistentVolume
-  metadata
+metadata:
     name: pv1001
     lables:
       type: local
- spec:
+spec:
   capacity: 
     storage:  10Gi
   accessModes:
-    -ReadWriteOnce
- hostpath:  "/tmp/data01"
+    - ReadWriteOnce
+  hostpath:  "/tmp/data01"
  
