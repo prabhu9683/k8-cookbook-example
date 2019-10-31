@@ -1,7 +1,7 @@
 apiVersion: v1
 kind: Namespace
-metada:
-  name: Development
+metadata:
+  name: development
   labels: 
-    name: Development
+    name: development
     
