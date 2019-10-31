@@ -2,7 +2,7 @@ apiVersion: apps/v1
 kind: Deployment
 metadata:
   name: my-first-nginx
-    labels:
+  labels:
     app: nginx
 spec:
   replicas: 1
