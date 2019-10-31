@@ -4,18 +4,18 @@ metadata:
   name: nginx
   labels:
     app: nginx
- spec:
+spec:
   replicas: 1
   selector:
     matchLables:
       app:  nginx
-  templete:
+  template:
     metadata:
       labels:
-        app:nginx
-     spec:
+        app:  nginx
+    spec:
       containers:
-        - name: nginx
+      - name: nginx
           image:  nginx
           
-    
+        
