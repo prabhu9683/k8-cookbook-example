@@ -1,3 +1,4 @@
+# This is for Development users namespace
 apiVerison: v1
 kind: Namespace
 metadata:
@@ -5,6 +6,7 @@ metadata:
   labels:
     name: dev
 ---
+# This is for Qulaity Test users namespace
 apiVersion: v1
 kind: Namespace
 metadata:
@@ -12,6 +14,7 @@ metadata:
   labels:
     name: qa
 ---
+# This is for Producation team users namespace
 apiVersion: v1
 kind: Namespace
 metadata:
